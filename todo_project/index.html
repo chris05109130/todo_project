@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do Project</title>
+    <link rel="stylesheet" href="style.css" />
+  <body>
+     
+  
+ <h1>Todo Project</h1>
+ <a class="openTodoPortal" href="#">Add todo</a>
+
+
+
+ <div class="openPortal">
+  <div class="intro">
+    <p>Todo Portal</p>
+    <p class="exitPortal">X</p>
+  </div>
+   <form id="todoForm">
+      <label for="name">Name of Todo</label>
+      <input type="text" id="name">
+      <div>
+        <p class="right"><span class="wordLengthName">20</span> Chartacters left</p>
+      </div>
+      <label for="description">Description of Todo</label>
+      <textarea name="" id="description" cols="30" rows="10"></textarea>
+      <div>
+        <p class="right"><span class="wordLengthDescription" >100</span> Chartacters left</p>
+      </div>
+      <input type="submit" value="Submit Todo">
+   </form>
+  
+   <p class="error"></p>
+ </div>
+
+
+ <div id="todoList"></div>
+ 
+      
+    
+    <script src="main.js"></script>
+  </body>
+</html>
